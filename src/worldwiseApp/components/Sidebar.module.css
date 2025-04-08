@@ -1,0 +1,10 @@
+
+
+.sidebar {
+    width: 40%;
+    height: inherit;
+    background: #f9f9f9;
+}
+.sidebar .logo {
+    background: red;
+}

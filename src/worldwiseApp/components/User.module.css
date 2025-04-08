@@ -1,0 +1,30 @@
+
+.user {
+    width: 260px;
+    height: 80px;
+    background: #282828;
+    color: #fff;
+    padding: .5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    z-index: 99999;
+}
+.logoutBtn {
+    cursor: pointer;
+    font-weight: 800;
+    padding: .25rem .5rem;
+    border-radius: 25px;
+    border: 3px solid #282828;
+}
+.logoutBtn:hover {
+    opacity: .9;
+    border: 3px solid #fff;
+}
+.avatar {
+    width: 80px;
+    height: auto;
+}

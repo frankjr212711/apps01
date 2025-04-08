@@ -1,0 +1,145 @@
+.atomic-blog {
+    width: 100%;
+
+    position: relative;
+    background: #F6F8FA;
+}
+.header {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem;
+}
+.atomic-form {
+    padding: .5rem;
+    background: wheat;
+    margin: .5rem 0;
+}
+.fake-dark-mode .atomic-form {
+    background:  navy;
+}
+.atomic-form .row,
+.header .row {
+    display: flex;
+}
+.atomic-form .row textarea {
+    flex: 1;
+}
+.atomic-form .row input,
+.atomic-form .row textarea,
+.header .row input {
+    padding: .5rem;
+    border: none;
+    border: 1px solid goldenrod;
+   outline:none;
+   font-size: 16px;
+}
+.fake-dark-mode .atomic-form .row input,
+.fake-dark-mode .atomic-form .row textarea,
+.fake-dark-mode .header .row input {
+    border: 1px solid  #8bb4f8;
+}
+.atomic-form .row button,
+.header .row button {
+    border: none;
+    padding: 0 .5rem;
+    background: goldenrod;
+    border: 1px solid goldenrod;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+.fake-dark-mode .atomic-form .row button,
+.fake-dark-mode .header .row button {
+    background: #174ea6;
+    border: 1px solid#174ea6;
+    color: white;
+}
+.fake-dark-mode .atomic-blog {
+    background: #0c0c0c;
+    color: #fff;
+}
+.list {
+    width: 70%;
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.list li {
+    position: relative;
+    width: 200px;
+    height: auto;
+    padding: 1rem;
+    /* border: 2px solid #D1D9E0; */
+    box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, .11);
+    background: white;
+    cursor: pointer;
+}
+.fake-dark-mode .list li {
+    color: #111;
+    border: 4px solid blue;
+}
+.delBtn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 18px
+}
+.delBtn:hover {
+    font-weight: 800;
+    /* color: red */
+}
+.list li:hover {
+    background: rgb(199, 236, 250);
+}
+.fake-dark-mode .list li:hover {
+    color: #111;
+}
+.archive {
+    width: 60%;
+    margin: 1rem;
+}
+.archive ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.archive li {
+    width: 250px;
+    padding: 1rem;
+    border: 2px solid goldenrod;
+    cursor: pointer;
+}
+.archive-btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fake-dark-mode .archive li:hover {
+    color: #111;
+}
+.archive li:hover {
+    background: lightgoldenrodyellow;
+}
+footer {
+    padding:1rem 0;
+    text-align: center;
+    font-weight: 700;
+    color: #333;
+}
+.darkModeBtn {
+    font-size: 24px;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    cursor: pointer;
+    background: transparent;
+    border:none;
+    transition: .2s ease;
+}
+
+.darkModeBtn:hover {
+    transform: scale(1.5)
+}

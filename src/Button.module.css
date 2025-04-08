@@ -1,0 +1,34 @@
+
+
+.btn {
+    padding: .5rem;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+.primary {
+    background: #293949;
+    color: white;
+    border-radius: 5px;
+    opacity: .98;
+}
+.teal {
+    background: teal;
+    color: #fff;
+}
+.back {
+    border-radius: 4px;
+    color: white;
+    background: #293949;
+
+}
+.primary:hover,
+.back:hover {
+    /* border: 2px solid #192939; */
+    background: #192939;
+}
+.next {
+    background: red;
+    color: white;
+}

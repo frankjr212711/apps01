@@ -1,0 +1,31 @@
+
+.login {
+    width: 100%;
+    height: 100vmax;
+    background: #F6F8FA;
+}
+.login-form {
+    width: 65%;
+    height: auto;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    /* border: 1px solid #D1D9E0; */
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0 , .11), 
+    inset 0px 5px 5px rgba(255, 255, 255, .9);
+}
+
+.row {
+    margin-top: 1rem ;
+}
+.row input {
+    width: 100%;
+    outline: none;
+    margin-bottom:1rem;
+    font-size: 17px;
+    padding: .5rem;
+    border: 1px solid #ddd;
+}
+.errorMessage {
+    color: red;
+}

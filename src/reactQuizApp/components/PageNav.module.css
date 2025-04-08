@@ -1,0 +1,15 @@
+
+
+.page-nav {
+    margin: 1rem;
+}
+.cta:link,
+.cta:visited {
+    padding: .5rem 1rem;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ddd;
+}
+.cta:hover {
+    border-bottom: 4px solid #ccc;
+}

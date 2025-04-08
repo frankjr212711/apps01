@@ -1,0 +1,10 @@
+
+.map {
+    width: 60%;
+    height: 100vmax;
+    border: 1px solid red;
+}
+.map-container {
+    width: 100%;
+    height: inherit
+}

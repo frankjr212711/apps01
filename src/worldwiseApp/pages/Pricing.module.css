@@ -1,0 +1,14 @@
+
+.pricing {
+    width: 100%;
+    height: 100vmax;
+    /* background: lightgrey; */
+
+    background-image: linear-gradient(
+        to top,
+        rgba(131, 225, 250, 0.6),
+        rgba(0, 0, 0, .11)
+    ), url('/img01.jpg');
+    background-size: cover;
+    background-position: center;
+}

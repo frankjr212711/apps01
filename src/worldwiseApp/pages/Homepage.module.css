@@ -1,0 +1,19 @@
+
+.homepage {
+    width: 100%;
+    height: 100vh;
+    /* background: lightgrey; */
+
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, .98),
+        rgba(0, 0, 0, .11)
+    ), url('/img02.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.home-cta {
+    background: #161616;
+    color: #fff;
+    padding: .5rem;
+}

@@ -1,0 +1,91 @@
+
+.page-nav {
+    width: 60px;
+    height: 100vmax;
+    background: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 4px; 
+    opacity: .96;
+
+    position: absolute;
+    top: 0;
+    transition: .2s ease;
+}
+
+ .open {
+   width: 200px;
+
+}
+
+.menu {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.menu span {
+    width: 30px;
+    height: 4px;
+    background: #333;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    border-radius: 4px;
+    transform: translate(-50%)
+}
+.menu span:nth-child(1) {
+top:8px
+}
+.menu span:nth-child(2) {
+    top: 17px
+    }
+    .menu span:nth-child(3) {
+        top: 25px
+        }
+.menu-list {
+    width: 100%;
+    background: #f2f2f2;
+    
+
+    margin: 4rem 0;
+
+ ;
+}
+.menu-list ul {
+    width: 100%;
+
+}
+.menu-list ul li  .cta{
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+    gap: 3rem;
+    border-bottom: .5px solid #ddd
+}
+.menu-list ul li  .cta:link,
+.menu-list ul li  .cta:visited {
+    color: #333;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.menu-list ul li .cta:hover {
+    background: #f9f9f9
+    ;
+}
+.icon,
+.menu-list ul li span.icon {
+font-size: 25px;
+}
+.menu-list ul li span.txt {
+    /* font-size: 15px; */
+    }

@@ -1,0 +1,9 @@
+
+.countryItem {
+    min-height: 100px;
+    padding: 1rem;
+    margin: 10px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
