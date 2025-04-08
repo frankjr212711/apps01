@@ -16,7 +16,9 @@ function AppNav() {
           <ul>
             <li>
               <Link to="/" className={styles.cta}>
-                <span className={styles.icon}>🏠</span>
+                <span className={styles.icon}>
+      🏠︎
+     </span>
               </Link>
             </li>
           </ul>
@@ -32,19 +34,20 @@ function MenuList({ isActive }) {
       <ul>
         <li>
           <Link to="calls" className={styles.cta}>
-            <span className={styles.icon}>📞</span>
+            <span className={styles.icon}>☎</span>
             {isActive && <span className={styles.txt}>Calls</span>}
           </Link>
         </li>
         <li>
           <Link to="chats" className={styles.cta}>
-            <span className={styles.icon}>💬 </span>
+            <span className={styles.icon}>🗪</span>
+            
             {isActive && <span className={styles.txt}>Chats</span>}
           </Link>
         </li>
         <li>
           <Link to="status" className={styles.cta}>
-            <span className={styles.icon}>💫</span>
+            <span className={styles.icon}>↻</span>
             {isActive && <span className={styles.txt}>Status</span>}
           </Link>
         </li>

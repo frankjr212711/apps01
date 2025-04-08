@@ -14,13 +14,13 @@ function Home() {
         <h1>Welcome to React Quiz</h1>
         <h5>Click on the start buttton below to start Quiz</h5>
       </header>
-      <section>
+      <main>
         {!status && <Button onClick={() => dispatch({ type: "start", payload: questions })}>
           start quiz
         </Button>}
 
         {status && <Questions />}
-      </section>
+      </main>
     </div>
   );
 }

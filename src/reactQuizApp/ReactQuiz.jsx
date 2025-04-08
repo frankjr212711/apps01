@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { QuestionsProvider } from "./context/QuestionsProvider";
 
 import Home from "./pages/Home";
@@ -15,7 +15,8 @@ function ReactQuiz() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="app" element={<AppPage />} >
-                <Route path="calls" element={<Calls/>}/>
+            <Route index element={ <Navigate replace to="chats" />} />    
+             <Route path="calls" element={<Calls/>}/>
                 <Route path="chats" element={<Chats/>}/>
                 <Route path="status" element={<Status/>}/>
             </Route>
